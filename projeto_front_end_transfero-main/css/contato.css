@@ -1,143 +1,31 @@
-/* Começo da header */
-header {
-    width: 100%;
-    height: 100px;
-    position: relative;
-    background-color: #F4F5F7; 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+/*inicio da main*/
+
+main {
+    padding: 40px 20px;
+    text-align: center;
 }
 
-header h1 {
+.sobre-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.sobre-container h2 {
     color: #007BFF; 
     font-size: 2rem;
-    margin: 0;
+    margin-bottom: 20px;
 }
 
-/* Estilos para a navbar do Bootstrap */
-header .navbar {
-    background-color: transparent !important; 
-    border: none !important; 
-}
-
-header .navbar .navbar-toggler {
-    border: none; 
-}
-
-header .navbar .navbar-nav .nav-item {
-    margin: 0 10px;
-}
-
-header .navbar .navbar-nav .nav-link {
-    color: #8A2BE2 !important; 
+.sobre-container p {
+    color: #2C2F33; 
     font-size: 1.1rem;
-    transition: color 0.3s ease;
+    line-height: 1.6;
+    margin-bottom: 20px;
 }
+/* Fim da main */
 
-header .navbar .navbar-nav .nav-link:hover {
-    color: #007BFF !important; 
-}
-/* Fim da header */
-/*inicio da main*/
-/*fim da main*/
-/* Início do footer */
-footer {
-    background-color: #dedfe0;
-    padding: 40px 20px; 
-    color: #2C2F33;
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-/* Formulário mais à esquerda */
-.formulario {
-    width: 30%;
-    margin-right: auto; 
-}
-
-.formulario form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.formulario input, .formulario textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.formulario button {
-    background-color: #00E0FF;
-    color: #2C2F33;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.formulario button:hover {
-    background-color: #007BFF;
-    color: white;
-}
-
-/* Direitos centralizados mais para baixo */
-.direitos {
-    text-align: center;
-    width: 40%;
-    align-self: center; 
-    margin-bottom: 20px; 
-}
-
-.direitos nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.direitos nav ul li a {
-    color: #8A2BE2;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.direitos nav ul li a:hover {
-    color: #007BFF;
-}
-
-/* Redes sociais mais à direita e um pouco mais para baixo */
-.redes-sociais {
-    width: 20%;
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    align-self: center; 
-    margin-bottom: 20px; 
-}
-
-.redes-sociais a img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.redes-sociais a img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-/* Fim do footer */
