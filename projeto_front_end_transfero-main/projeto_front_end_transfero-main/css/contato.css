@@ -1,0 +1,58 @@
+/* Início da main */
+main {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sobre-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-container h2 {
+    color: #007BFF;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Estilização dos contatos */
+.contato-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contato-info p {
+    color: #2C2F33;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contato-info p::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    background-size: cover;
+}
+
+.contato-info p:nth-child(1)::before {
+    background-image: url('/img/email-icon.png'); /* Ícone de email */
+}
+
+.contato-info p:nth-child(2)::before {
+    background-image: url('/img/phone-icon.png'); /* Ícone de telefone */
+}
+
+.contato-info p:nth-child(3)::before {
+    background-image: url('/img/location-icon.png'); /* Ícone de localização */
+}
+
+/* Fim da main */

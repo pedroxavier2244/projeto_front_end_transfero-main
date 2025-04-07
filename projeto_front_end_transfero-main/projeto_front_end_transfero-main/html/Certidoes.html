@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="/css/servicos.css">
+    <link rel="stylesheet" href="/css/loading.css">
+    <title>Autentika - Certidões</title>
+</head>
+<body>
+    <!-- Tela de carregamento -->
+    <section id="loading-screen">
+        <img src="/video/cansado.gif" alt="Carregando...">
+    </section>
+
+    <header>
+        <a href="home.html" class="text-decoration-none"><h1>Autentika</h1></a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sobre.html">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="servico-detalhe">
+            <h2>Certidões</h2>
+            <p>
+                A Autentika oferece emissão de certidões de nascimento, casamento, óbito e outras certidões oficiais. 
+                Solicite suas certidões de forma rápida, segura e 100% online.
+            </p>
+            <section class="formulario-servico">
+                <h3>Solicitar Certidão</h3>
+                <form id="form-certidoes">
+                    <input type="text" placeholder="Seu nome" required>
+                    <input type="email" placeholder="Seu email" required>
+                    <select required>
+                        <option value="" disabled selected>Selecione o tipo de certidão</option>
+                        <option value="nascimento">Certidão de Nascimento</option>
+                        <option value="casamento">Certidão de Casamento</option>
+                        <option value="obito">Certidão de Óbito</option>
+                        <option value="outros">Outras Certidões</option>
+                    </select>
+                    <button type="submit">
+                        <span class="icon">📜</span> Solicitar Certidão
+                    </button>
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-container">
+            <section class="formulario">
+                <form>
+                    <h2>Reclamações</h2>
+                    <input type="email" placeholder="Entre com seu email">
+                    <textarea placeholder="Escreva sua reclamação"></textarea>
+                    <button type="submit">Enviar</button>
+                    <p>Não compartilhamos seu email com terceiros.</p>
+                </form>
+            </section>
+            <section class="direitos">
+                <p>&copy; 2025 Autentika. Todos os direitos reservados.</p>
+                <nav>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Serviço</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="redes-sociais">
+                <a href="#"><img src="/img/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="/img/instagram.png" alt="instagram"></a>
+                <a href="#"><img src="/img/whatsapp.png" alt="whatsapp"></a>
+            </section>
+        </section>
+    </footer>
+
+    <script src="/js/loading.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/certidoes.js"></script>
+</body>
+</html>
